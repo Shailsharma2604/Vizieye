@@ -75,7 +75,7 @@ We welcome contributions!
 ## 📧 Contact  
 
 For queries or collaborations:  
-- **Email:** [your-email@example.com](mailto:your-email@example.com)  
+- **Email:** [shail020604@gmail.com](mailto:shail020604@gmail.com)  
 - **LinkedIn:** [Shail Sharma](https://www.linkedin.com/in/shail-sharma-607175250)  
 
 ---  
