@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Run Python Script</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>  <!-- jQuery for AJAX -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f7fc;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: auto;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            text-align: center;
+            max-width: 700px;
+            width: 90%;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        #runButton {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        #runButton:hover {
+            background-color: #45a049;
+        }
+        #output {
+            margin-top: 20px;
+            font-size: 1.1rem;
+            color: #333;
+            background-color: #f1f1f1;
+            padding: 10px;
+            border-radius: 5px;
+            word-wrap: break-word;
+        }
+        .project-info {
+            margin-top: 30px;
+            text-align: left;
+        }
+        .project-info h2 {
+            font-size: 1.6rem;
+            color: #444;
+            margin-bottom: 10px;
+        }
+        .project-info p {
+            font-size: 1rem;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .project-info a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .project-info a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 1.6rem;
+            }
+            #runButton {
+                padding: 12px 25px;
+                font-size: 1rem;
+            }
+            .project-info h2 {
+                font-size: 1.4rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Run Python Script</h1>
+        <button id="runButton">Run Script</button>
+        <p id="output"></p>
+
+        <div class="project-info">
+            <h2>About Vizieye</h2>
+            <p>
+                <strong>Vizieye</strong> is an innovative project aimed at making technology more accessible through 
+                AI and Machine Learning. The system leverages cutting-edge technologies to provide visual 
+                assistance, object recognition, and real-time data analytics for various applications.
+            </p>
+            <p>
+                This project showcases our passion for solving real-world problems with technology. By participating 
+                in hackathons and continuously enhancing its capabilities, we aim to create an impact in domains 
+                like healthcare, accessibility, and automation.
+            </p>
+            <p>
+                Explore more about Vizieye and other projects on 
+                <a href="https://github.com/your-github-username" target="_blank">GitHub</a>.
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // jQuery to handle button click event
+        $('#runButton').click(function() {
+            $.ajax({
+                url: '/run_script',  // Endpoint to trigger the Python script
+                type: 'POST',        // HTTP method
+                success: function(response) {
+                    $('#output').text(response.output);  // Display the output in the <p> element
+                },
+                error: function() {
+                    $('#output').text('An error occurred while running the script.');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
