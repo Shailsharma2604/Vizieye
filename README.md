@@ -79,6 +79,8 @@ For queries or collaborations:
 - **LinkedIn:** [Shail Sharma](https://www.linkedin.com/in/shail-sharma-607175250)  
 
 - **Email:** [mukund3818.be22@chitkara.edu.in](mailto:mukund3818.be22@chitkara.edu.in)  
-- **LinkedIn:** [Mukund Malik](https://www.linkedin.com/in/mukund-malik-5131a4280/)  
+- **LinkedIn:** [Mukund Malik](https://www.linkedin.com/in/mukund-malik-5131a4280)  
 
+- **Email:** [dhruvkajla@gmail.com](mailto:mukund3818.be22@chitkara.edu.in)  
+- **LinkedIn:** [Dhruv Kajla](https://www.linkedin.com/in/dhruv-kajla001) 
 ---  
