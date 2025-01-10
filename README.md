@@ -81,6 +81,9 @@ For queries or collaborations:
 - **Email:** [mukund3818.be22@chitkara.edu.in](mailto:mukund3818.be22@chitkara.edu.in)  
 - **LinkedIn:** [Mukund Malik](https://www.linkedin.com/in/mukund-malik-5131a4280)  
 
-- **Email:** [dhruvkajla@gmail.com](mailto:mukund3818.be22@chitkara.edu.in)  
+- **Email:** [dhruvkajla@gmail.com](mailto:dhruvkajla@gmail.com)  
 - **LinkedIn:** [Dhruv Kajla](https://www.linkedin.com/in/dhruv-kajla001) 
+
+- **Email:** [navroopchawla5@gmail.com](mailto:navroopchawla5@gmail.com)  
+- **LinkedIn:** [Navroop Chawla](https://www.linkedin.com/in/navroop-chawla-131185309)
 ---  
